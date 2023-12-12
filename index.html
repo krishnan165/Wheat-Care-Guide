@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheat Care Guide</title>
+    <style>
+        /* Advanced CSS for enhanced styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #8e44ad;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #8e44ad;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .care-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .care-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .benefit-card {
+            width: 250px;
+            padding: 20px;
+            background-color: #d2b4de;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .non-benefits {
+            font-style: italic;
+            color: #c0392b;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #8e44ad;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wheat Care Guide</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Soil for Wheat</h2>
+            <div class="care-info">
+                <div class="care-item">
+                    <h3>Well-draining soil with good fertility.</h3>
+                    <p>Wheat plants thrive in well-draining soil that is rich in nutrients. Ensure good fertility for optimal growth.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Watering</h2>
+            <div class="care-info">
+                <div class="care-item">
+                    <h3>Regular watering, keeping the soil consistently moist.</h3>
+                    <p>Water the wheat plants regularly, maintaining consistent moisture without letting the soil dry out completely.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Sunlight</h2>
+            <div class="care-info">
+                <div class="care-item">
+                    <h3>Full sun exposure.</h3>
+                    <p>Plant wheat in an area with full sunlight exposure for optimal development and yield.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Benefits</h2>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <h3>High nutritional value.</h3>
+                    <p>Wheat is a rich source of essential nutrients, providing high nutritional value in diets.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Versatile for culinary use.</h3>
+                    <p>Wheat is versatile and used in various culinary applications, such as making bread, pasta, and more.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Considerations</h2>
+            <p class="non-benefits">May be susceptible to certain diseases and pests; monitor and take preventive measures.</p>
+        </section>
+    </main>
+<img src="data:image/jpeg;base64,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" alt="Japanese Maple Plant" height="100%" width="50%">
+    <footer>
+        <p>Wheat Care Guide</p>
+    </footer>
+</body>
+</html>
